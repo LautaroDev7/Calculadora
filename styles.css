@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.contenedor{
+    width: 300px;
+    height:500px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(170, 186, 187);
+}
+
+.visor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visor .result{
+    width: 100%;
+    min-height: 25px;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.num-y-op{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    justify-content: center;
+}
+
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.numeros button{
+    width: 30%;
+    margin-bottom: 5px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    padding: 2px;
+    color: white;
+}
+.operaciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.operaciones button{
+    width:40%;
+    margin-bottom: 5px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    color: white;
+}
+
+button p{
+    color: black;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.8);;
+}
